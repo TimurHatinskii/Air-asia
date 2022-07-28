@@ -1,0 +1,91 @@
+/*Footer*/
+.footer {
+  margin-top: 42px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+/*Лого*/
+.footer__logo {
+  display: flex;
+  flex: 1;
+  vertical-align: middle;
+}
+
+
+/*Навигация*/
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.footer__menu-list {
+  display: flex;
+  padding: 0;
+}
+
+.footer__menu-item {
+  margin-right: 54px;
+}
+
+.footer__menu-item:last-child {
+  margin-right: 0;
+}
+
+.footer__menu-link:hover {
+  color: #DA0100
+}
+
+.footer__social {
+  display: flex;
+  flex: 2;
+  vertical-align: middle;
+}
+
+.footer__social-link {
+  border-radius: 50%;
+  display: block;
+  background: url(../Air-asia/social/t.png) no-repeat;
+  background-color: #868686;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  width: 36px;
+  height: 36px;
+}
+
+.footer__link-tg {
+  background-position: 4px 4px;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__social-item {
+  display: flex;
+  margin-right: 10px;
+}
+
+.footer__social-item:last-child {
+  margin-right: 0;
+}
+
+/*Контакты*/
+.footer__link-contacts {
+  font-style: normal;
+  width: 17%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.footer__contacts-chart {
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+}

@@ -1,0 +1,68 @@
+/*Информация "О нас"*/
+.about {
+  margin-top: 151px;
+  height: 552px;
+}
+
+.about__gates {  
+  display: block;
+  background-image: url(../Air-asia/about/gates.jpg);  
+  width: 490px;
+  height: 505px;
+  border-radius: 7px;
+}
+
+.about__mountains {
+  display: block;
+  position: absolute;
+  top: 97px;
+  left: 354px;  
+  background-image: url(../Air-asia/about/mountains.jpg);
+  width: 785px;
+  height: 455px;
+  border-radius: 7px;
+}
+
+
+.about__text h3{
+  margin: 70px 0 37px 81px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #000000;
+}
+
+.about__text p {
+  margin: 0 202px 43px 81px;
+  line-height: 27px;
+  color: #060606;
+}
+
+/*Кнопка подробнее*/
+.about__btn {
+  margin: 0 0 66px 81px;
+  width: 168px;
+  height: 55px;
+  background: #F5170E;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.about__btn:hover {
+  background: #DA0100;
+}
+
+/*Линия*/
+.line {
+  margin-top: 53px;
+}
+
+.line__border {
+  width: 1142px;
+  height: 4px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}

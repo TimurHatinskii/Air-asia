@@ -1,0 +1,72 @@
+.news__stocks {
+  margin-top: 127px;
+}
+.news__stocks-heading {
+  margin-bottom: 51px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+/*Новости*/
+.news__stocks-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news__tour {
+  display: block;
+  flex: 1;
+  margin-right: 25px;
+  background-image: url(../Air-asia/news/plain.jpg);
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.news__content {
+  margin-top: 252px;
+  margin-left: 30px;
+}
+
+.news__season {
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.news__info {
+  padding-bottom: 3px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.news__text {
+  margin-bottom: 47.5px;
+}
+
+/*Акции*/
+.stocks__tour {  
+  display: block;
+  flex: 1;
+  background-image: url(../Air-asia/news/surfer.jpg);
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stocks__content {
+  margin-top: 252px;
+  margin-left: 30px;
+}
+
+.stocks__season {
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.stocks__info {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.stocks__text {
+  line-height: 24px;
+}

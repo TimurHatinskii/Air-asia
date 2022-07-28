@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+  color: #FFFFFF;
+}
+
+body {
+  font: 16px/1.42 "Open Sans", Arial, Helvetica, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #001821;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+address {
+  font-style: normal;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  background-image: url(../Air-asia/background/header.jpg);
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1142px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.maincontent {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.container {
+  width: 1139px;
+  margin: 0 auto;
+  position: relative;
+}

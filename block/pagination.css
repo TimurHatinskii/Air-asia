@@ -1,0 +1,52 @@
+/*Пагинатор*/
+.pagination {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.container__pagination {
+  display: flex;
+}
+
+.pagination__display {
+  padding-right: 36px;
+  display: flex;
+  flex: 1;  
+  align-items: center;
+  justify-content: right;
+  vertical-align: middle;
+}
+
+.pagination__controlls {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.pagination__pages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  align-items: center;
+}
+
+.pagination__pages-item {
+  font-weight: 700;
+  display: flex;
+  margin-right: 24px;
+}
+
+.pagination__pages-item:last-child {
+  margin-right: 0;
+}
+
+.pagination__pages-link--active {
+  width: 32px;
+  height: 32px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #F5170E;
+}
