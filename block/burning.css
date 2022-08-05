@@ -88,16 +88,8 @@
 .btn__watch {
   margin-left: 24px;
   width: 135px;
-  height: 55px;
-  border: 1px solid #F5170E;
-  border-radius: 35px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
+  background: #FFFFFF;
+  border: 1px solid #F5170E;  
   color: #F5170E;
   margin-bottom: 26px;
 }

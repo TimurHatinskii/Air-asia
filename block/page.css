@@ -16,19 +16,3 @@
   line-height: 20px;
   padding: 27.5px 0 33.5px 0;
 }
-
-/*Кнопка подробнее*/
-.page__btn {
-  width: 168px;
-  height: 55px;
-  background: #F5170E;
-  border-radius: 35px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.page__btn:hover {
-  background: #DA0100;
-}

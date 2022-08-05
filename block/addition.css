@@ -80,16 +80,22 @@ p {
   width: 1px;
   padding: 0;
   border: 0;
-  background-image: url(../Air-asia/background/header.jpg);
 }
-
 .wrapper {
   overflow: hidden;
-  min-width: 1142px;
+  max-width: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;  
+
+}
+.wrapper__content-index {
+  max-width: 100%;
+  min-height: 100%;
+  background-image: url(../Air-asia/background/header.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .maincontent {
@@ -98,8 +104,30 @@ p {
   flex-direction: column;
 }
 
+.maincontent__content-index {
+  max-width: 100%;
+  background-image: url(../Air-asia/background/footer.jpg);  
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .container {
   width: 1139px;
   margin: 0 auto;
   position: relative;
+}
+
+.btn {
+  height: 55px;
+  border-radius: 35px;
+  background: #F5170E;  
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 168px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #DA0100;
 }

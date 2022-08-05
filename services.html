@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Услуги</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./block/main.css">
+</head>
+
+<body>
+  <!-- Страница с Услугами -->
+  <div class="wrapper">
+    <div class="wrapper__content wrapper__content-services">
+      <header class="header">
+        <!--Логотип компании в Шапке страницы-->
+        <div class="container header__container">
+          <div class="header__logo">
+            <a href="./index.html" class="logo">
+              <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
+            </a>
+          </div>
+          <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="./index.html" class="header__menu-link menu__link-main">Главная</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="./services.html" class="header__menu-link menu__link-services-active">Услуги</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link menu__link-reviews">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="header__link-contacts">
+            <!--Контактные данные и график работы-->
+            <a href="/" class="contacts__phone">8 800 700 30 30</a>
+            <a href="#" class="contacts__chart" title="График работы">
+              График работы
+              <div class="contacts__dropdown">
+                <div class="contacts__dropdown-content">
+                  <time class="contacts__dropdown-text">
+                    пн-вс: 09:00 - 20:00
+                  </time>
+                  <time class="contacts__dropdown-text">
+                    Обед: 14:00 - 14:30
+                  </time>
+                </div>
+              </div>
+            </a>
+          </address>
+        </div>
+      </header>
+      <!--Титульный лист Услуг-->
+      <section class="content__services">
+        <div class="container">
+          <div class="content__services-cap content__cap-services">
+            <h1 class="page__tour-title">
+              Услуги
+            </h1>
+            <nav class="breadcrumbs__services">
+              <ul class="breadcrumbs__services-list">
+                <li class="breadcrumbs__services-item">
+                  <a href="./index.html" class="breadcrumbs__services-link">Главная</a>
+                </li>
+                <li class="breadcrumbs__services-item">
+                  <a href="./services.html"
+                    class="breadcrumbs__services-link breadcrumbs__services-link--unactive">Услуги</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- Предлагаемые услуги -->
+      <main class="maincontent">
+        <!-- Услуги -->
+        <section class="services__list">
+          <div class="container container__services-list">
+            <ul class="services__page">
+              <li class="services__item services__item-price">
+                <div class="services__logo">
+                  <div class="services__avatar">
+                    <img src="./Air-asia/services/logo/waterfall.jpg" class="services__img-elem" alt="">
+                  </div>
+                </div>
+                <div class="services__desc">
+                  <h2 class="services__name">Водопад Янг-бей
+                  </h2>
+                  <article class="services__text">
+                    <p>
+                      Сайт рыбатекст поможет дизайнеру, верстальщику,
+                      вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                      а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                      При создании генератора мы использовали небезизвестный универсальный код речей.
+                    </p>
+                  </article>
+                  <button class="btn services__btn">Подробнее</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="container container__services-list">
+            <ul class="services__page">
+              <li class="services__item services__item-price">
+                <div class="services__logo">
+                  <div class="services__avatar">
+                    <img src="./Air-asia/services/logo/monkeys.jpg" class="services__img-elem" alt="">
+                  </div>
+                </div>
+                <div class="services__desc">
+                  <h2 class="services__name">Остров обезьян
+                  </h2>
+                  <article class="services__text">
+                    <p>
+                      Сайт рыбатекст поможет дизайнеру, верстальщику,
+                      вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
+                      а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                      При создании генератора мы использовали небезизвестный универсальный код речей.
+                    </p>
+                  </article>
+                  <button class="btn services__btn">Подробнее</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="container container__pagination">
+            <div class="pagination__display pagination__display-services">
+              Страница 1 из 7
+            </div>
+            <div class="pagination__controlls pagination__controlls-services">
+              <ul class="pagination__pages-list">
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services--active">1</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">2</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">3</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">4</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">5</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">6</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link pagination__pages-link-services">7</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Партнеры -->
+        <section class="partners">
+          <div class="container container__partners-title">
+            <div class="partners__block">
+              <h2 class="partners__text">
+                Партнеры
+              </h2>
+            </div>
+            <div class="partners__list">
+              <ul class="partners__page">
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://www.pobeda.aero/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/pobeda.png" alt="Победа" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://www.s7.ru/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/s7.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://sletat.ru/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/lets-fly.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://www.lufthansa.com/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/lufthansa.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://www.airbaltic.com/ru-RU/index" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/airbaltic.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://pegasus.ru/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/pegasus.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://airlines.aero/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/ural.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="partners__item">
+                  <div class="partners__logo">
+                    <div class="partners__avatar">
+                      <a href="https://pegastk.com/" class="tour__operator" target="_blank">
+                        <img src="./Air-asia/services/partners/pegas.png" alt="" class="partners__img">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h1></h1>
+        </section>
+      </main>
+      <!--footer, подвал, нижняя часть сайта-->
+      <footer class="footer">
+        <!--Логотип компании в Шапке страницы-->
+        <div class="container footer__container">
+          <div class="footer__logo">
+            <a href="./index.html" class="logo">
+              <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
+            </a>
+          </div>
+          <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="./index.html" class="footer__menu-link menu__link-main">Главная</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="./services.html" class="footer__menu-link menu__link-services-active">Услуги</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link menu__link-reviews">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__social">
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link footer__link-tg">
+                  <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link footer__link-vk">
+                  <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link footer__link-fb">
+                  <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link footer__link-inst">
+                  <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <address class="footer__link-contacts">
+            <!--Контактные данные и график работы-->
+            <div class="footer__contacts-chart">
+              Бесплатный звонок по России
+            </div>
+            <div class="contacts__number">
+              <a href="/" class="contacts__phone">
+                8 800 700 30 30
+              </a>
+            </div>
+          </address>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

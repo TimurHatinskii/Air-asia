@@ -1,0 +1,34 @@
+.partners {
+  padding-top: 88px;
+  background-color: #F4F5F5;;
+  text-align: left;
+  color: #1A1B1E;
+}
+
+.partners__text {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.partners__page {
+  padding: 0;
+  /* flex-wrap: wrap; */
+  margin: 0 0 117px 0;
+  text-align: justify;
+  align-items: baseline;
+}
+
+.partners__avatar {
+  min-width: 230px;
+  min-height: 100px;
+}
+
+.partners__item {
+  margin-right: 28px;
+  margin-top: 79px;
+  display: inline-block;
+}
+
+.partners__item:last-child {
+  margin-right: 0;
+}

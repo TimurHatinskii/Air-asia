@@ -1,6 +1,6 @@
 /*Footer*/
 .footer {
-  margin-top: 42px;
+  padding: 48px 0 32px 0;
 }
 
 .footer__container {
@@ -42,29 +42,22 @@
 }
 
 .footer__social {
-  display: flex;
   flex: 2;
-  vertical-align: middle;
 }
 
 .footer__social-link {
   border-radius: 50%;
-  display: block;
-  background: url(../Air-asia/social/t.png) no-repeat;
-  background-color: #868686;
-  background-repeat: no-repeat;
   transition: 0.3s;
   width: 36px;
   height: 36px;
 }
 
-.footer__link-tg {
-  background-position: 4px 4px;
+.footer__social-link:hover {  
+  background-color: #868686;
 }
 
 .footer__social-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .footer__social-item {

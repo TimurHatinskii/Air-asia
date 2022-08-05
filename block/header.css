@@ -13,9 +13,14 @@
   vertical-align: middle;
 }
 
+.logo {  
+  width: 98px;
+  height: 42px;
+}
+
 .logo__png {
-  width: 85px;
-  height: 36px;
+  display: block;
+  max-width: 100%;
 }
 
 /*Навигация*/
@@ -41,8 +46,15 @@
 }
 
 .header__menu-link:hover {
-  color: #DA0100
+  color: #DA0100;
 }
+
+.menu__link-main-active, 
+.menu__link-services-active,
+.menu__link-reviews-active {
+  color: #DA0100;
+}
+
 
 /*Контакты*/
 .header__link-contacts {
