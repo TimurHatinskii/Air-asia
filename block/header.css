@@ -1,5 +1,5 @@
 .header {
-  padding: 12px 0;
+  margin: 12px 0;
 }
 
 .header__container {
@@ -7,7 +7,7 @@
 }
 
 /*Лого*/
-.header__logo {  
+.logo {  
   display: flex;
   flex: 1;
   vertical-align: middle;
@@ -21,62 +21,4 @@
 .logo__png {
   display: block;
   max-width: 100%;
-}
-
-/*Навигация*/
-.header__menu {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 3;
-  font-size: 14px;
-  vertical-align: middle;
-}
-
-.header__menu-list {
-  display: flex;
-  padding: 0;
-}
-
-.header__menu-item {
-  margin-right: 54px;
-}
-
-.header__menu-item:last-child {
-  margin-right: 0;
-}
-
-.header__menu-link:hover {
-  color: #DA0100;
-}
-
-.menu__link-main-active, 
-.menu__link-services-active,
-.menu__link-reviews-active {
-  color: #DA0100;
-}
-
-
-/*Контакты*/
-.header__link-contacts {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 2;
-  align-items: flex-end;
-  justify-content: right;
-  text-align: right;
-}
-
-.contacts__phone {
-  font-size: 26px;
-  text-decoration: none;
-}
-
-.contacts__chart {
-  font-size: 13px;
-  text-decoration-line: underline;
-  color: #98A4A8;
-}
-
-.contacts__chart:hover {
-  color: #FFFFFF;
 }

@@ -1,0 +1,31 @@
+/*Навигация*/
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.menu-list {
+  display: flex;
+  padding: 0;
+}
+
+.menu-item {
+  margin-right: 54px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link:hover {
+  color: #DA0100;
+}
+
+.menu__link-main-active, 
+.menu__link-services-active,
+.menu__link-reviews-active {
+  color: #DA0100;
+}

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Услуги</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,41 +20,40 @@
       <header class="header">
         <!--Логотип компании в Шапке страницы-->
         <div class="container header__container">
-          <div class="header__logo">
+          <div class="logo">
             <a href="./index.html" class="logo">
               <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
             </a>
           </div>
           <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
-          <nav class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-item">
-                <a href="./index.html" class="header__menu-link menu__link-main">Главная</a>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
               </li>
-              <li class="header__menu-item">
-                <a href="./services.html" class="header__menu-link menu__link-services-active">Услуги</a>
+              <li class="menu-item">
+                <a href="./services.html" class="menu-link menu__link-services-active">Услуги</a>
               </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link menu__link-reviews">Отзывы</a>
+              <li class="menu-item">
+                <a href="#" class="menu-link menu__link-reviews">Отзывы</a>
               </li>
             </ul>
           </nav>
-          <address class="header__link-contacts">
+          <address class="link-contacts">
             <!--Контактные данные и график работы-->
             <a href="/" class="contacts__phone">8 800 700 30 30</a>
-            <a href="#" class="contacts__chart" title="График работы">
-              График работы
-              <div class="contacts__dropdown">
-                <div class="contacts__dropdown-content">
-                  <time class="contacts__dropdown-text">
-                    пн-вс: 09:00 - 20:00
-                  </time>
-                  <time class="contacts__dropdown-text">
-                    Обед: 14:00 - 14:30
-                  </time>
-                </div>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">
+                График работы
+              </a>
+              <div class="triangle"></div>
+              <div class="dropdown__menu">
+                <ul class="dropdown__list">
+                  <li class="dropdown__item dropdown__item-chart">пн-вс: 09:00 - 20:00</li>
+                  <li class="dropdown__item dropdown__item-dinner">Обед: 14:00 - 14:30</li>
+                </ul>              
               </div>
-            </a>
+            </div>
           </address>
         </div>
       </header>
@@ -65,14 +64,14 @@
             <h1 class="page__tour-title">
               Услуги
             </h1>
-            <nav class="breadcrumbs__services">
-              <ul class="breadcrumbs__services-list">
-                <li class="breadcrumbs__services-item">
-                  <a href="./index.html" class="breadcrumbs__services-link">Главная</a>
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-item">
+                  <a href="./index.html" class="breadcrumbs-link">Главная</a>
                 </li>
-                <li class="breadcrumbs__services-item">
+                <li class="breadcrumbs-item">
                   <a href="./services.html"
-                    class="breadcrumbs__services-link breadcrumbs__services-link--unactive">Услуги</a>
+                    class="breadcrumbs-link breadcrumbs-link--unactive">Услуги</a>
                 </li>
               </ul>
             </nav>
@@ -80,7 +79,7 @@
         </div>
       </section>
       <!-- Предлагаемые услуги -->
-      <main class="maincontent">
+      <main class="maincontent maincontent__services">
         <!-- Услуги -->
         <section class="services__list">
           <div class="container container__services-list">
@@ -102,7 +101,9 @@
                       При создании генератора мы использовали небезизвестный универсальный код речей.
                     </p>
                   </article>
-                  <button class="btn services__btn">Подробнее</button>
+                  <button class="btn">
+                    Подробнее
+                  </button>
                 </div>
               </li>
             </ul>
@@ -126,7 +127,9 @@
                       При создании генератора мы использовали небезизвестный универсальный код речей.
                     </p>
                   </article>
-                  <button class="btn services__btn">Подробнее</button>
+                  <button class="btn">
+                    Подробнее
+                  </button>
                 </div>
               </li>
             </ul>
@@ -138,25 +141,25 @@
             <div class="pagination__controlls pagination__controlls-services">
               <ul class="pagination__pages-list">
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services--active">1</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services--active">1</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">2</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">2</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">3</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">3</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">4</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">4</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">5</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">5</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">6</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">6</a>
                 </li>
                 <li class="pagination__pages-item">
-                  <a href="#" class="pagination__pages-link pagination__pages-link-services">7</a>
+                  <a href="#" class="pagination__pages-link pagination__pages-link--services">7</a>
                 </li>
               </ul>
             </div>
@@ -254,52 +257,52 @@
       <footer class="footer">
         <!--Логотип компании в Шапке страницы-->
         <div class="container footer__container">
-          <div class="footer__logo">
+          <div class="logo">
             <a href="./index.html" class="logo">
               <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
             </a>
           </div>
           <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
-          <nav class="footer__menu">
-            <ul class="footer__menu-list">
-              <li class="footer__menu-item">
-                <a href="./index.html" class="footer__menu-link menu__link-main">Главная</a>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
               </li>
-              <li class="footer__menu-item">
-                <a href="./services.html" class="footer__menu-link menu__link-services-active">Услуги</a>
+              <li class="menu-item">
+                <a href="./services.html" class="menu-link menu__link-services-active">Услуги</a>
               </li>
-              <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link menu__link-reviews">Отзывы</a>
+              <li class="menu-item">
+                <a href="#" class="menu-link menu__link-reviews">Отзывы</a>
               </li>
             </ul>
           </nav>
-          <nav class="footer__social">
-            <ul class="footer__social-list">
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link footer__link-tg">
+          <nav class="social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#" class="social-link link-tg">
                   <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link footer__link-vk">
+              <li class="social-item">
+                <a href="#" class="social-link link-vk">
                   <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link footer__link-fb">
+              <li class="social-item">
+                <a href="#" class="social-link link-fb">
                   <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
                 </a>
               </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link footer__link-inst">
+              <li class="social-item">
+                <a href="#" class="social-link link-inst">
                   <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
                 </a>
               </li>
             </ul>
           </nav>
-          <address class="footer__link-contacts">
+          <address class="link-contacts">
             <!--Контактные данные и график работы-->
-            <div class="footer__contacts-chart">
+            <div class="contacts-chart">
               Бесплатный звонок по России
             </div>
             <div class="contacts__number">

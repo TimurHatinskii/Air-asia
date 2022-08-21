@@ -1,0 +1,27 @@
+.social {
+  flex: 2;
+}
+
+.social-link {
+  border-radius: 50%;
+  transition: 0.3s;
+  width: 36px;
+  height: 36px;
+}
+
+.social-link:hover {  
+  background-color: #868686;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-item {
+  display: flex;
+  margin-right: 10px;
+}
+
+.social-item:last-child {
+  margin-right: 0;
+}

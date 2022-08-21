@@ -1,0 +1,15 @@
+/*Контакты*/
+.link-contacts {
+  flex-wrap: wrap;
+  flex: 2;
+  align-items: flex-end;
+  justify-content: right;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  text-decoration: none;
+  justify-content: end;
+  display: flex;
+}

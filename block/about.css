@@ -21,29 +21,23 @@
   width: 785px;
   height: 455px;
   border-radius: 7px;
+  padding: 81px 68px;
 }
 
-
 .about__text h3{
-  margin: 70px 0 37px 81px;
   font-size: 36px;
   font-weight: 700;
   line-height: 49px;
   color: #000000;
+  margin-bottom: 37px;
 }
 
 .about__text p {
-  margin: 0 202px 43px 81px;
+  width: 600px;
   line-height: 27px;
-  color: #060606;
+  color: #060606;  
+  margin-bottom: 43px;
 }
-
-/*Кнопка подробнее*/
-.btn__about {
-  margin: 0 0 66px 81px;
-}
-
-
 
 /*Линия*/
 .line {
