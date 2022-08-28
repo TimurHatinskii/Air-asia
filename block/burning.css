@@ -1,6 +1,6 @@
 /*Горящие туры*/
-.burning {  
-  margin-top: 246px;
+.burning {
+  margin-bottom: 127px;
 }
 
 .burning__fire-tour--list {
@@ -68,7 +68,8 @@
 }
 
 .burning__tours-item:last-child {
-  margin-right: 0px;}
+  margin-right: 0px;
+}
 
 
 .calendar-icon,

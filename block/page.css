@@ -1,20 +1,9 @@
 /*Основной контент*/
 .page {
-  margin-top: 120px;
+  margin-bottom: 246px;
 }
 
-.page__tour { 
-  width: 511px;
-}
-
-.page__tour-title { 
-  font-size: 72px;
-  line-height: 98px;
-  margin: 0;
-  font-weight: 700;
-}
-
-.page__tour-slogan {
+.page__tour--slogan-index {
   font-size: 18px;
   line-height: 20px;
   margin: 27.5px 0 33.5px 0;

@@ -31,3 +31,12 @@
 .partners__item:last-child {
   margin-right: 0;
 }
+
+.partners__img {
+  filter: grayscale(100%);
+}
+
+.partners__img:hover {
+  filter: grayscale(0%);
+  transition: .3s;
+}

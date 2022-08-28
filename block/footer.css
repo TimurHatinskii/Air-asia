@@ -6,17 +6,3 @@
 .footer__container {
   display: flex;
 }
-
-/*Контакты*/
-/* .footer__link-contacts {
-  font-style: normal;
-  width: 17%;
-  text-align: right;
-  vertical-align: middle;
-}
-
-.footer__contacts-chart {
-  font-size: 11px;
-  line-height: 20px;
-  color: #9A9A9A;
-} */
