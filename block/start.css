@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../Air-asia/start/bg.jpg") center center / cover no-repeat;
+  background: url("../Air-asia/start/bg.jpg") center center /*/ cover*/ no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
