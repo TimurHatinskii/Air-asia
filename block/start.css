@@ -14,7 +14,7 @@
 .welcome {  
   align-items: center;
   justify-content: center;
-  animation: bounce 1.1s 1s;
+  animation: bounce 1.1s;
 }
 
 .welcome__content {
