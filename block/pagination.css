@@ -66,30 +66,17 @@
   color: #000000;
 }
 
-.pagination__pages-link-services {
+.pagination__pages-link--services {
   color: #000000;
 }
 
-.pagination__pages-link--active {
-  width: 32px;
-  height: 32px;
+.pagination__pages-link--active--services {
   background-color: #F5170E;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
   color: #FFFFFF;
 }
 
-.pagination__pages-link-services:hover,
-.pagination__pages-link--active:hover {
-  width: 32px;
-  height: 32px;
+.pagination__pages-link--services:hover , 
+.pagination__pages-link--active--services:hover {
   background-color: #F5170E;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: #FFFFFF;  
-  margin-left: -11.5px;
+  color: #FFFFFF;
 }
