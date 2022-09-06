@@ -1,9 +1,11 @@
 .maincontent__services {
   background-color: #F2F2F2;
 }
+
 .services__list {
   text-align: center;
   margin-top: 98px;
+  margin-bottom: 90px;
 }
 
 .services__page {
@@ -20,7 +22,7 @@
 
 .services__logo {
   padding-right: 56px;
-  flex: 1;  
+  flex: 1;
 }
 
 .services__avatar {
@@ -52,11 +54,10 @@
 
 .services__btn {
   background: #FFFFFF;
-  border: 1px solid #F5170E;  
+  border: 1px solid #F5170E;
   color: #F5170E;
 }
 
 .services__btn:hover {
   color: #FFFFFF;
 }
-

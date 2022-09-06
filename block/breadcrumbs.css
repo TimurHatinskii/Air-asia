@@ -2,7 +2,8 @@
   margin: 83px 0 35px 0;
 }
 
-.breadcrumbs-item, .breadcrumbs-link {
+.breadcrumbs-item,
+.breadcrumbs-link {
   display: inline-block;
   vertical-align: middle;
   color: #9A9A9A;

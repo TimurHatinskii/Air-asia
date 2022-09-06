@@ -57,26 +57,26 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #F5170E;  
+  color: #F5170E;
   margin-left: -11.5px;
 }
 
 /**Пагинация на стр. с Услугами**/
-.pagination__display-services {
+.pagination__display--red {
   color: #000000;
 }
 
-.pagination__pages-link--services {
+.pagination__pages-link--red {
   color: #000000;
 }
 
-.pagination__pages-link--active--services {
+.pagination__pages-link--active--red {
   background-color: #F5170E;
   color: #FFFFFF;
 }
 
-.pagination__pages-link--services:hover , 
-.pagination__pages-link--active--services:hover {
+.pagination__pages-link--red:hover,
+.pagination__pages-link--active--red:hover {
   background-color: #F5170E;
   color: #FFFFFF;
 }

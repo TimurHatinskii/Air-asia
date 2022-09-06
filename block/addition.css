@@ -89,9 +89,10 @@ p {
   min-height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
 
 }
+
 .wrapper__content-index {
   max-width: 100%;
   min-height: 100%;
@@ -108,7 +109,7 @@ p {
 
 .maincontent__content-index {
   max-width: 100%;
-  background-image: url(../Air-asia/background/footer.jpg);  
+  background-image: url(../Air-asia/background/footer.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -124,7 +125,7 @@ p {
   border-radius: 35px;
   background: #FFFFFF;
   color: #F5170E;
-  border: 1px solid #F5170E; 
+  border: 1px solid #F5170E;
   text-transform: uppercase;
   width: 168px;
   font-weight: 700;

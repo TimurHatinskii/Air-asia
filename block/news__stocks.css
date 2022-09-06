@@ -10,6 +10,7 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .news__tour {
   display: block;
   flex: 1;
@@ -35,12 +36,13 @@
   font-size: 24px;
   line-height: 36px;
 }
+
 .news__text {
   margin-bottom: 47.5px;
 }
 
 /*Акции*/
-.stocks__tour {  
+.stocks__tour {
   display: block;
   flex: 1;
   background-image: url(../Air-asia/news/surfer.jpg);

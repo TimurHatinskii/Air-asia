@@ -1,14 +1,14 @@
-.main-title {
+.title {
   margin-top: 100px;
 }
 
-.main__tour-title { 
+.title--block {
+  width: 511px;
+}
+
+.title--text {
   font-size: 72px;
   line-height: 98px;
   margin: 0;
   font-weight: 700;
-}
-
-.main-title__text { 
-  width: 511px;
 }

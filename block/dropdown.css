@@ -9,8 +9,8 @@
 }
 
 .triangle {
-  position: absolute;  
-  border: 12px solid transparent;  
+  position: absolute;
+  border: 12px solid transparent;
   border-bottom-color: #EDEDED;
   width: 0;
   height: 0;
@@ -33,7 +33,7 @@
 }
 
 .dropdown__menu {
-  position: absolute;  
+  position: absolute;
   background: #EDEDED;
   border-radius: 5px;
   padding: 22px 19px;

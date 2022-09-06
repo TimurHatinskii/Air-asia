@@ -1,0 +1,89 @@
+.reviews__form {
+  background: #F2F2F2;
+  color: #1A1B1E;
+}
+
+.form__reviews__elem {
+  margin-top: 57px;
+  margin-bottom: 96px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.form__section {
+  margin-right: 28px;
+  flex: 1;
+  font-size: 18px;
+}
+
+.form__section:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  padding: 20px 30px;
+  width: 100%;
+  height: 65px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+}
+
+.form__input:focus {
+  outline: 1px solid #F5170E;
+}
+
+.form__input_textarea {
+  resize: vertical;
+  height: 235px;
+  padding: 30px;
+}
+
+.form__row_btns {
+  align-items: baseline;
+}
+
+.form__question {
+  width: max-content;
+  margin-right: 74px;
+
+}
+
+.form__question-btns {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 10px 20px;
+  background: #E7E7E7;
+  border-radius: 35px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+
+.checkbox__elem {
+  /* display: none; */
+
+}
+
+.form__question-btns:hover {
+  background: #B9EAE4;
+  border-radius: 35px;
+  padding: -10px -20px;
+  cursor: pointer;
+}
+
+.question-services:checked~.form__question-name {
+  background: #B9EAE4;
+  border-radius: 35px;
+  padding: -10px -20px;
+  cursor: pointer;
+}
+
+.form__question-name {
+  font-size: 13px;
+  cursor: pointer;
+}

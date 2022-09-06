@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Услуги</title>
+  <title>Отзывы</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
@@ -32,10 +32,10 @@
                 <a href="./index.html" class="menu-link menu__link-main">Главная</a>
               </li>
               <li class="menu-item">
-                <a href="./services.html" class="menu-link menu__link-services-active">Услуги</a>
+                <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
               </li>
               <li class="menu-item">
-                <a href="./reviews.html" class="menu-link menu__link-reviews">Отзывы</a>
+                <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
               </li>
             </ul>
           </nav>
@@ -62,7 +62,7 @@
         <div class="container container--title">
           <div class="title--block">
             <h1 class="title--text">
-              Услуги
+              Отзывы
             </h1>
           </div>
         </div>
@@ -76,14 +76,14 @@
                   <a href="./index.html" class="breadcrumbs-link">Главная</a>
                 </li>
                 <li class="breadcrumbs-item">
-                  <a href="./services.html" class="breadcrumbs-link breadcrumbs-link--unactive">Услуги</a>
+                  <a href="./reviews.html" class="breadcrumbs-link breadcrumbs-link--unactive">Отзывы</a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
       </section>
-      <!-- Предлагаемые услуги -->
+      <!-- Отзывы -->
       <main class="maincontent maincontent__services">
         <!-- Услуги -->
         <section class="services__list">
@@ -139,13 +139,14 @@
               </li>
             </ul>
           </div>
+          <!-- ПАГИНАЦИЯ -->
           <div class="pagination">
             <div class="container container__pagination">
               <div class="pagination__display pagination__display--red">
                 Страница 1 из 7
               </div>
               <div class="pagination__controlls">
-                <ul class="pagination__pages-list pagination__pages-list-red">
+                <ul class="pagination__pages-list pagination__pages-list--red">
                   <li class="pagination__pages-item">
                     <a href="#" class="pagination__pages-link--active pagination__pages-link--active--red">1</a>
                   </li>
@@ -172,154 +173,170 @@
             </div>
           </div>
         </section>
-        <!-- Партнеры -->
-        <section class="partners">
-          <div class="container container__partners-title">
-            <div class="inner__block">
-              <h2 class="inner__text">
-                Партнеры
-              </h2>
-            </div>
-            <div class="partners__list">
-              <ul class="partners__page">
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://www.pobeda.aero/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/pobeda.png" alt="Победа" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://www.s7.ru/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/s7.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://sletat.ru/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/lets-fly.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://www.lufthansa.com/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/lufthansa.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://www.airbaltic.com/ru-RU/index" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/airbaltic.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://pegasus.ru/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/pegasus.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://airlines.aero/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/ural.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="partners__item">
-                  <div class="partners__logo">
-                    <div class="partners__avatar">
-                      <a href="https://pegastk.com/" class="tour__operator" target="_blank">
-                        <img src="./Air-asia/services/partners/pegas.png" alt="" class="partners__img">
-                      </a>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+        <!-- Прямоугольник -->
+        <section class="rectangle">
+          <div class="container container__rectangle">
+            <div class="rectangle__block">
+              <div class="rectangle__inner">
+                <div class="rectangle__text">
+                  Подберем тур по вашим пожеланиям
+                </div>
+              </div>
+              <div class="rectangle__icon">
+                <img src="./Air-asia/rectangle/couple.png" alt="">
+              </div>
             </div>
           </div>
         </section>
-      </main>
-      <!--footer, подвал, нижняя часть сайта-->
-      <footer class="footer">
-        <!--Логотип компании в Шапке страницы-->
-        <div class="container footer__container">
-          <div class="logo">
-            <a href="./index.html" class="logo">
-              <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
+        <!-- Форма для заполнения отзывов -->
+        <section class="reviews__form">
+          <div class="container container__reviews__form-title">
+            <div class="inner__block">
+              <h2 class="inner__text">
+                Оставьте отзыв
+              </h2>
+            </div>
+            <form class="form__reviews__elem">
+              <div class="form__content">
+                <div class="form__row">
+                  <label class="form__section">
+                    <input class="form__input" name="" type="text" placeholder="ФИО">
+                  </label>
+                  <label class="form__section">
+                    <input class="form__input" name="" type="text" placeholder="Ссылка на профиль в VK">
+                  </label>
+                </div>
+                <div class="form__row">
+                  <label class="form__section">
+                    <textarea class="form__input form__input_textarea"
+                      placeholder="Напишите свой честный отзыв ;)"></textarea>
+                  </label>
+                </div>
+                <div class="form__row form__row_btns">
+                  <div class="form__row-left">
+                    <div class="form__question">
+                      <div class="form__question-title">Какими услугами компании пользуетесь?</div>
+                    </div>
+                  </div>
+                  <div class="form__row-right">
+                    <div class="form__question-btns">
+                      <input type="checkbox" class="checkbox__elem" id="question-services">
+                      <label for="question-services" class="form__question-btn">
+                        <div class="form__question-name">Остров обезьян
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Тур по Тайланду
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Водопад Янг-бей
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Тур по Индонезии
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Никакими
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Тур по Бали
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__question-btns">
+                      <label class="form__question-btn">
+                        <input type="checkbox" class="checkbox__elem">
+                        <div class="form__question-name">Другое
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </form>
+    </div>
+    </section>
+    </main>
+    <!--footer, подвал, нижняя часть сайта-->
+    <footer class="footer">
+      <!--Логотип компании в Шапке страницы-->
+      <div class="container footer__container">
+        <div class="logo">
+          <a href="./index.html" class="logo">
+            <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
+          </a>
+        </div>
+        <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link menu__link-main">Главная</a>
+            </li>
+            <li class="menu-item">
+              <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
+            </li>
+            <li class="menu-item">
+              <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="social">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link link-tg">
+                <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link link-vk">
+                <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link link-fb">
+                <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link link-inst">
+                <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <address class="link-contacts">
+          <!--Контактные данные и график работы-->
+          <div class="contacts-chart">
+            Бесплатный звонок по России
+          </div>
+          <div class="contacts__number">
+            <a href="/" class="contacts__phone">
+              8 800 700 30 30
             </a>
           </div>
-          <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
-          <nav class="menu">
-            <ul class="menu-list">
-              <li class="menu-item">
-                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
-              </li>
-              <li class="menu-item">
-                <a href="./services.html" class="menu-link menu__link-services-active">Услуги</a>
-              </li>
-              <li class="menu-item">
-                <a href="./reviews.html" class="menu-link menu__link-reviews">Отзывы</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="social">
-            <ul class="social-list">
-              <li class="social-item">
-                <a href="#" class="social-link link-tg">
-                  <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-vk">
-                  <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-fb">
-                  <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-inst">
-                  <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <address class="link-contacts">
-            <!--Контактные данные и график работы-->
-            <div class="contacts-chart">
-              Бесплатный звонок по России
-            </div>
-            <div class="contacts__number">
-              <a href="/" class="contacts__phone">
-                8 800 700 30 30
-              </a>
-            </div>
-          </address>
-        </div>
-      </footer>
-    </div>
+        </address>
+      </div>
+    </footer>
+  </div>
   </div>
 </body>
 

@@ -2,12 +2,12 @@
 @import url('./normalize.css');
 
 @import url('./start.css');
-@import url('./maincontent.css');
 @import url('./header.css');
 @import url('./nav__menu.css');
 @import url('./contacts.css');
 @import url('./dropdown.css');
 @import url('./breadcrumbs.css');
+@import url('./title.css');
 @import url('./heading.css');
 @import url('./content__services.css');
 @import url('./services.css');
@@ -16,6 +16,9 @@
 @import url('./burning.css');
 @import url('./news__stocks.css');
 @import url('./pagination.css');
+@import url('./rectangle.css');
+@import url('./reviews__form.css');
+@import url('./inner.css');
 @import url('./about.css');
 @import url('./footer.css');
 @import url('./social.css');

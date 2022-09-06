@@ -1,13 +1,8 @@
 .partners {
   margin-top: 170px;
-  background-color: #F4F5F5;;
+  background-color: #F4F5F5;
+  ;
   text-align: left;
-  color: #1A1B1E;
-}
-
-.partners__text {
-  font-weight: 700;
-  font-size: 48px;
 }
 
 .partners__page {

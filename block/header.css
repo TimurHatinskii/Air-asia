@@ -7,13 +7,13 @@
 }
 
 /*Лого*/
-.logo {  
+.logo {
   display: flex;
   flex: 1;
   vertical-align: middle;
 }
 
-.logo {  
+.logo {
   width: 98px;
   height: 42px;
 }
