@@ -40,7 +40,7 @@
 }
 
 .form__input_textarea {
-  resize: vertical;
+  resize: none;
   height: 235px;
   padding: 30px;
 }
@@ -57,7 +57,7 @@
 
 }
 
-.form__question-btns {
+.form__question-btns-active {
   display: inline-block;
   margin-right: 6px;
   background: #E7E7E7;

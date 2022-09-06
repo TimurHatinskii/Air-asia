@@ -1,7 +1,6 @@
 .maincontent__services {
   background-color: #F2F2F2;
 }
-
 .services__list {
   text-align: center;
   margin-top: 98px;
@@ -22,7 +21,7 @@
 
 .services__logo {
   padding-right: 56px;
-  flex: 1;
+  flex: 1;  
 }
 
 .services__avatar {
@@ -36,28 +35,13 @@
   max-width: 100%;
 }
 
-.services__desc {
-  color: #000000;
-}
-
-.services__name {
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 28.5px;
-}
-
-.services__text {
-  line-height: 27px;
-  color: #303030;
-  margin-bottom: 34.5px;
-}
-
 .services__btn {
   background: #FFFFFF;
-  border: 1px solid #F5170E;
+  border: 1px solid #F5170E;  
   color: #F5170E;
 }
 
 .services__btn:hover {
   color: #FFFFFF;
 }
+

@@ -1,0 +1,95 @@
+.reviews__list {
+  margin-top: 98px;
+  background: #f2f2f2;
+}
+
+.reviews__block {  
+  display: inline-block;
+  width: 47%;
+  margin-right: 27px;
+  margin-bottom: 17px;
+  vertical-align: top;
+}
+
+.reviews__block:nth-child(2) {
+  margin-right: 0px;
+}
+
+.reviews__block:nth-child(3) {
+  margin-top: -135px;
+  margin-bottom: 0;
+}
+
+.reviews__block:nth-child(4) {
+  margin: 0px;
+
+}
+
+.reviews__window {
+  border-radius: 5px;
+  margin-right: 27px;
+  margin-bottom: 17px;  
+  background: #F4F5F5;
+  padding: 50px 28px 28px 32px;
+  margin: 0;
+}
+
+.reviews__tourist {
+  display: flex;
+  margin-bottom: 27px;
+  align-items: center;
+}
+
+.reviews__tourist-logo {
+  width: 142px;
+  height: 142px;
+  margin-right: 22px;
+}
+
+.reviews__tourist-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.reviews__tourist-name {
+  display: flex;
+  flex-wrap: wrap;
+  color: #1A1B1E;
+  margin-bottom: 3px;
+}
+
+.reviews__tourist-fio {
+  margin-right: 7px;
+  color: #1A1B1E;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reviews__tourist-fio-active {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.reviews__tourist-vk {
+  width: 30px;
+  height: 30px;
+}
+
+.form__question-btns {
+  margin-right: 6px;
+  border-radius: 35px;
+  background: #B9EAE4;
+  color: #303030;
+  width: max-content;
+}
+
+.name__desc-reviews {
+  text-align: left;
+}
+
+.text__desc-reviews {
+  margin-top: 13px;
+  margin-bottom: 48px;
+  text-align: left;
+}
