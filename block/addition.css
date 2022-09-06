@@ -137,22 +137,22 @@ p {
   color: #FFFFFF;
 }
 
-.btn-red {
+.btn--red {
   color: #FFFFFF;
   background: #F5170E;
 }
 
-.btn-red:hover {
+.btn--red:hover {
   background: #DA0100;
 }
 
-.btn-gray {
+.btn--gray {
   color: #FFFFFF;
   background: #8E8E8E;
   border: none;
 }
 
-.btn-gray:hover {
+.btn--gray:hover {
   background: #2B2B2B;
   border: none;
 }

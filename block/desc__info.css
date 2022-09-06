@@ -3,7 +3,7 @@
 }
 
 /* Главная страница */
-.name__desc-index h3 {
+.name__desc-index {
   font-size: 36px;
   font-weight: 700;
   line-height: 49px;
@@ -11,7 +11,7 @@
   margin-bottom: 37px;
 }
 
-.text__desc-index p {
+.text__desc-index {
   width: 600px;
   line-height: 27px;
   color: #060606;
