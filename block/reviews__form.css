@@ -1,3 +1,4 @@
+/* Форма для отзывов */
 .reviews__form {
   background: #F2F2F2;
   color: #1A1B1E;
@@ -44,8 +45,10 @@
   padding: 30px;
 }
 
+/* Форма с выбором воспользовавшихся услуг */
 .form__row_btns {
   align-items: baseline;
+  margin-bottom: 0;
 }
 
 .form__question {
@@ -57,33 +60,34 @@
 .form__question-btns {
   display: inline-block;
   margin-right: 6px;
-  padding: 10px 20px;
   background: #E7E7E7;
   border-radius: 35px;
   margin-bottom: 9px;
-  cursor: pointer;
 }
 
-.checkbox__elem {
-  /* display: none; */
-
-}
-
-.form__question-btns:hover {
+.question-services:checked~.question-services__visable {
   background: #B9EAE4;
   border-radius: 35px;
   padding: -10px -20px;
   cursor: pointer;
 }
 
-.question-services:checked~.form__question-name {
-  background: #B9EAE4;
-  border-radius: 35px;
-  padding: -10px -20px;
-  cursor: pointer;
-}
-
-.form__question-name {
+.question-services__visable {
+  padding: 10px 20px;
   font-size: 13px;
   cursor: pointer;
+}
+
+.question-services__visable:hover {
+  background: #B9EAE4;
+  border-radius: 35px;
+}
+
+.question-services {
+  display: none;
+}
+
+.click {
+  margin-top: 23px;
+  text-align: right;
 }

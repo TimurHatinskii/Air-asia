@@ -85,60 +85,15 @@
       </section>
       <!-- Отзывы -->
       <main class="maincontent maincontent__services">
-        <!-- Услуги -->
-        <section class="services__list">
-          <div class="container container__services-list">
-            <ul class="services__page">
-              <li class="services__item services__item-price">
-                <div class="services__logo">
-                  <div class="services__avatar">
-                    <img src="./Air-asia/services/logo/waterfall.jpg" class="services__img-elem" alt="">
-                  </div>
-                </div>
-                <div class="services__desc">
-                  <h2 class="services__name">Водопад Янг-бей
-                  </h2>
-                  <article class="services__text">
-                    <p>
-                      Сайт рыбатекст поможет дизайнеру, верстальщику,
-                      вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
-                      а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                      При создании генератора мы использовали небезизвестный универсальный код речей.
-                    </p>
-                  </article>
-                  <button class="btn">
-                    Подробнее
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="container container__services-list">
-            <ul class="services__page">
-              <li class="services__item services__item-price">
-                <div class="services__logo">
-                  <div class="services__avatar">
-                    <img src="./Air-asia/services/logo/monkeys.jpg" class="services__img-elem" alt="">
-                  </div>
-                </div>
-                <div class="services__desc">
-                  <h2 class="services__name">Остров обезьян
-                  </h2>
-                  <article class="services__text">
-                    <p>
-                      Сайт рыбатекст поможет дизайнеру, верстальщику,
-                      вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке,
-                      а начинающему оратору отточить навык публичных выступлений в домашних условиях.
-                      При создании генератора мы использовали небезизвестный универсальный код речей.
-                    </p>
-                  </article>
-                  <button class="btn">
-                    Подробнее
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
+        <!-- Отзывы пользователей -->
+        <section class="reviews__list">
+          <div class="container container__reviews__list">
+            <div class="reviews__block">
+              <div class="reviews__window">
+                
+              </div>
+            </div>
+          </div>          
           <!-- ПАГИНАЦИЯ -->
           <div class="pagination">
             <div class="container container__pagination">
@@ -196,22 +151,29 @@
                 Оставьте отзыв
               </h2>
             </div>
+            <!-- ОТЗЫВЫ -->
             <form class="form__reviews__elem">
+              <!-- Форма заполнения Отзыва -->
               <div class="form__content">
+                <!-- Поля ФИО и VK -->
                 <div class="form__row">
+                  <!-- Поле ФИО -->
                   <label class="form__section">
                     <input class="form__input" name="" type="text" placeholder="ФИО">
                   </label>
+                  <!-- Поле ссылки VK -->
                   <label class="form__section">
                     <input class="form__input" name="" type="text" placeholder="Ссылка на профиль в VK">
                   </label>
                 </div>
+                <!-- Поле отзыва -->
                 <div class="form__row">
                   <label class="form__section">
                     <textarea class="form__input form__input_textarea"
                       placeholder="Напишите свой честный отзыв ;)"></textarea>
                   </label>
                 </div>
+                <!-- Область с возможностью выбора Услуг -->
                 <div class="form__row form__row_btns">
                   <div class="form__row-left">
                     <div class="form__question">
@@ -220,123 +182,131 @@
                   </div>
                   <div class="form__row-right">
                     <div class="form__question-btns">
-                      <input type="checkbox" class="checkbox__elem" id="question-services">
-                      <label for="question-services" class="form__question-btn">
-                        <div class="form__question-name">Остров обезьян
+                      <label for="question-services-1" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-1">
+                        <div class="question-services__visable">Остров обезьян
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Тур по Тайланду
+                      <label for="question-services-2" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-2">
+                        <div class="question-services__visable">Тур по Тайланду
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Водопад Янг-бей
+                      <label for="question-services-3" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-3">
+                        <div class="question-services__visable">Водопад Янг-бей
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Тур по Индонезии
+                      <label for="question-services-4" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-4">
+                        <div class="question-services__visable">Тур по Индонезии
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Никакими
+                      <label for="question-services-5" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-5">
+                        <div class="question-services__visable">Никакими
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Тур по Бали
+                      <label for="question-services-6" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-6">
+                        <div class="question-services__visable">Тур по Бали
                         </div>
                       </label>
                     </div>
                     <div class="form__question-btns">
-                      <label class="form__question-btn">
-                        <input type="checkbox" class="checkbox__elem">
-                        <div class="form__question-name">Другое
+                      <label for="question-services-7" class="form__question-btn">
+                        <input type="checkbox" class="question-services" id="question-services-7">
+                        <div class="question-services__visable">Другое
                         </div>
                       </label>
                     </div>
                   </div>
                 </div>
+                <!-- Кнопки Очистить/Отправить -->
+                <div class="click">
+                  <button type="reset" class="btn btn-gray">
+                    Очистить
+                  </button>
+                  <button class="btn btn-red">
+                    Отправить
+                  </button>
+                </div>
               </div>
+            </form>
           </div>
-          </form>
-    </div>
-    </section>
-    </main>
-    <!--footer, подвал, нижняя часть сайта-->
-    <footer class="footer">
-      <!--Логотип компании в Шапке страницы-->
-      <div class="container footer__container">
-        <div class="logo">
-          <a href="./index.html" class="logo">
-            <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
-          </a>
-        </div>
-        <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a href="./index.html" class="menu-link menu__link-main">Главная</a>
-            </li>
-            <li class="menu-item">
-              <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
-            </li>
-            <li class="menu-item">
-              <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="social">
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link link-tg">
-                <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link link-vk">
-                <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link link-fb">
-                <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="#" class="social-link link-inst">
-                <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <address class="link-contacts">
-          <!--Контактные данные и график работы-->
-          <div class="contacts-chart">
-            Бесплатный звонок по России
-          </div>
-          <div class="contacts__number">
-            <a href="/" class="contacts__phone">
-              8 800 700 30 30
+        </section>
+      </main>
+      <!--footer, подвал, нижняя часть сайта-->
+      <footer class="footer">
+        <!--Логотип компании в Шапке страницы-->
+        <div class="container footer__container">
+          <div class="logo">
+            <a href="./index.html" class="logo">
+              <img src="./Air-asia/logo/logo.png" class="logo__png" alt="Авторские туры по Азии. Air-Asia.">
             </a>
           </div>
-        </address>
-      </div>
-    </footer>
-  </div>
+          <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
+              </li>
+              <li class="menu-item">
+                <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
+              </li>
+              <li class="menu-item">
+                <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a href="#" class="social-link link-tg">
+                  <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link link-vk">
+                  <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link link-fb">
+                  <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="#" class="social-link link-inst">
+                  <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <address class="link-contacts">
+            <!--Контактные данные и график работы-->
+            <div class="contacts-chart">
+              Бесплатный звонок по России
+            </div>
+            <div class="contacts__number">
+              <a href="/" class="contacts__phone">
+                8 800 700 30 30
+              </a>
+            </div>
+          </address>
+        </div>
+      </footer>
+    </div>
   </div>
 </body>
 

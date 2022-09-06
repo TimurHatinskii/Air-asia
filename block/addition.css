@@ -145,3 +145,14 @@ p {
 .btn-red:hover {
   background: #DA0100;
 }
+
+.btn-gray {
+  color: #FFFFFF;
+  background: #8E8E8E;
+  border: none;
+}
+
+.btn-gray:hover {
+  background: #2B2B2B;
+  border: none;
+}
