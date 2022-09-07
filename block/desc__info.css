@@ -1,13 +1,25 @@
-.desc {
-  color: #000000;
+/* Главная страница */
+.desck__stock {
+  padding-top: 252px;
+  padding-left: 30px;
 }
 
-/* Главная страница */
+.name__desck__season__stock {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.name__desck__stock__info {
+  padding-bottom: 3px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .name__desc-index {
+  color: #000000;
   font-size: 36px;
   font-weight: 700;
   line-height: 49px;
-  color: #000000;
   margin-bottom: 37px;
 }
 
@@ -20,6 +32,7 @@
 
 /* Страница с Услугами */
 .name__desc-services {
+  color: #000000;
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 28.5px;

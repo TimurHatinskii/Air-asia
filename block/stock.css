@@ -1,0 +1,27 @@
+.stock__desck {
+  display: flex;
+}
+
+.stock__tour {
+  width: 557px;
+  height: 394px;
+  margin-right: 25px;
+}
+
+.stock__tour:last-child {
+  margin-right: 0;
+}
+
+.stock__icon { 
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;  
+  cursor: pointer;
+}
+
+.stock__icon__plain {  
+  background-image: url(../Air-asia/news/plain.jpg);
+}
+.stock__icon__surfer {
+  background-image: url(../Air-asia/news/surfer.jpg);
+}

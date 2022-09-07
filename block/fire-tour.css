@@ -1,0 +1,82 @@
+
+.fire__tour__desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Горящие Туры*/
+.fire__tour {
+  flex: 1;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-right: 27px;
+  border-radius: 5px;
+}
+
+.fire__tour__offer {
+  padding: 0;
+  margin: 0;
+}
+
+.fire__tour:last-child {
+  margin-right: 0px;
+}
+
+
+.fire__tour__icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.fire__tour__content {
+  padding: 33px 16px 26px 22px;
+}
+
+.fire__tour__title {
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+.fire__tour__info {
+  margin-bottom: 23px;
+}
+
+.tour__list {
+  padding: 0;
+}
+
+.tour__item {
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.tour__item:last-child {
+  margin-right: 0px;
+}
+
+
+.calendar__icon,
+.meal__icon {
+  vertical-align: middle;
+}
+
+.period,
+.breakfast {
+  display: inline-block;
+  vertical-align: middle;
+  color: #666666;
+  margin-left: 10px;
+}
+
+.tour__text p {
+  font-size: 14px;
+  color: #303030;
+  line-height: 21px;
+  margin-bottom: 24.5px;
+}
+
+.btn--little {
+  width: 135px;
+}
