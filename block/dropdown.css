@@ -6,6 +6,7 @@
 .dropdown__link {
   justify-content: end;
   text-decoration-line: underline;
+  color: #98A4A8;
 }
 
 .triangle {
@@ -20,6 +21,10 @@
   left: -9999px;
   opacity: 0;
   transition: opacity .8s;
+}
+
+.dropdown:hover .dropdown__link {
+  color: #ffffff;
 }
 
 .dropdown:hover .triangle {

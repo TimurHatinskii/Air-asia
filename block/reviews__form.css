@@ -35,6 +35,10 @@
   outline: 1px solid transparent;
 }
 
+.form__input:hover {
+  outline: 1px solid #F5170E;
+}
+
 .form__input:focus {
   outline: 1px solid #F5170E;
 }
