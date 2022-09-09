@@ -71,17 +71,19 @@
   text-decoration: underline;
 }
 
-.reviews__tourist-vk {
+.reviews__tourist__social {
   width: 30px;
   height: 30px;
 }
 
-.form__question-btns {
-  margin-right: 6px;
-  border-radius: 35px;
+.service__oval {
   background: #B9EAE4;
+  border-radius: 35px;
   color: #303030;
+  padding: 10px 20px;
+  font-size: 14px;
   width: max-content;
+  text-align: center;
 }
 
 .name__desc-reviews {
