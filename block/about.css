@@ -1,10 +1,7 @@
 /*Информация "О нас"*/
-.about {
+.about__gates {  
   margin-top: 151px;
   height: 552px;
-}
-
-.about__gates {  
   display: block;
   background-image: url(../Air-asia/about/gates.jpg);  
   width: 490px;
@@ -26,7 +23,7 @@
 
 /*Линия*/
 .line {
-  margin-top: 53px;
+  margin-top: 100px;
 }
 
 .line__border {

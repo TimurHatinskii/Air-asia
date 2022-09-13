@@ -1,12 +1,12 @@
-.title {
+.title__info {
   margin-top: 100px;
 }
 
-.title--block {
+.title__block_content {
   width: 511px;
 }
 
-.title--text {
+.title__text {
   font-size: 72px;
   line-height: 98px;
   margin: 0;

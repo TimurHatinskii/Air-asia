@@ -1,9 +1,9 @@
 /*Основной контент*/
-.page {
+.page__info {
   margin-bottom: 246px;
 }
 
-.page__tour--slogan-index {
+.page__slogan-text {
   font-size: 18px;
   line-height: 20px;
   margin: 27.5px 0 33.5px 0;

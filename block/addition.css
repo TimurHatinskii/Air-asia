@@ -30,7 +30,13 @@ button {
   background: transparent;
 }
 
-ul li {
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -120,6 +126,11 @@ p {
   position: relative;
 }
 
+.heading__text {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .btn {
   height: 55px;
   border-radius: 35px;
@@ -155,4 +166,8 @@ p {
 .btn--gray:hover {
   background: #2B2B2B;
   border: none;
+}
+
+.btn--little {
+  width: 135px;
 }

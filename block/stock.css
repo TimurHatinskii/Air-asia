@@ -1,14 +1,14 @@
-.stock__desck {
+.stock__desk-info {
   display: flex;
 }
 
-.stock__tour {
+.stock__tour-info {
   width: 557px;
   height: 394px;
   margin-right: 25px;
 }
 
-.stock__tour:last-child {
+.stock__tour-info:last-child {
   margin-right: 0;
 }
 
@@ -24,4 +24,20 @@
 }
 .stock__icon__surfer {
   background-image: url(../Air-asia/news/surfer.jpg);
+}
+
+.stock__desk__info-content {
+  padding-top: 252px;
+  padding-left: 30px;
+}
+
+.stock__name__desk-season {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.stock__name__desk__info {
+  padding-bottom: 3px;
+  font-size: 24px;
+  line-height: 36px;
 }
