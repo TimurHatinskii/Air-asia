@@ -1,0 +1,11 @@
+/*Линия*/
+.line__index {
+  margin-top: 100px;
+}
+
+.line__border-view {
+  width: 1142px;
+  height: 4px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
