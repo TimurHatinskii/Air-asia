@@ -1,30 +1,23 @@
 .maincontent__services {
   background-color: #F2F2F2;
 }
-.services__list {
-  text-align: center;
+.services__list__content {
   margin-top: 98px;
   margin-bottom: 90px;
 }
 
-.services__page {
-  margin: 0;
-  padding: 0;
-}
-
-.services__item {
+.services__item-price {
   display: flex;
   margin-bottom: 49px;
   align-items: center;
   text-align: left;
 }
 
-.services__logo {
+.services__logo-desk {
   margin-right: 56px;
-  flex: 1;  
 }
 
-.services__avatar {
+.services__avatar-img {
   overflow: hidden;
   border-radius: 5px;
   min-width: 460px;
@@ -34,14 +27,3 @@
   display: block;
   max-width: 100%;
 }
-
-.services__btn {
-  background: #FFFFFF;
-  border: 1px solid #F5170E;  
-  color: #F5170E;
-}
-
-.services__btn:hover {
-  color: #FFFFFF;
-}
-

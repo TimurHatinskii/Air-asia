@@ -1,4 +1,4 @@
-.rectangle {
+.rectangle__bkg {
   background: url(../Air-asia/rectangle/rectangle.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -6,18 +6,18 @@
   margin-top: 82px;
 }
 
-.rectangle__block {
+.rectangle__block-position {
   display: flex;
   align-items: center;
   padding-top: 21px;
 }
 
-.rectangle__inner {
+.heading__page-rectangle {
   max-width: 594px;
   margin-right: 26px;
 }
 
-.rectangle__text {
+.heading__text-white {
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;

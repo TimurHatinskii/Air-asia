@@ -16,7 +16,7 @@
 <body>
   <!-- Страница с Услугами -->
   <div class="wrapper">
-    <div class="wrapper__content wrapper__content-services">
+    <div class="wrapper__content wrapper__content-pic">
       <header class="header">
         <!--Логотип компании в Шапке страницы-->
         <div class="container header__container">
@@ -27,19 +27,19 @@
           </div>
           <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
           <nav class="menu">
-            <ul class="menu-list">
-              <li class="menu-item">
-                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./index.html" class="menu__link menu__link-main">Главная</a>
               </li>
-              <li class="menu-item">
-                <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
+              <li class="menu__item">
+                <a href="./services.html" class="menu__link menu__link-services">Услуги</a>
               </li>
-              <li class="menu-item">
-                <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
+              <li class="menu__item">
+                <a href="./reviews.html" class="menu__link menu__link-reviews-active">Отзывы</a>
               </li>
             </ul>
           </nav>
-          <address class="link-contacts">
+          <address class="link__contacts">
             <!--Контактные данные и график работы-->
             <a href="/" class="contacts__phone">8 800 700 30 30</a>
             <div class="dropdown">
@@ -65,18 +65,14 @@
               Отзывы
             </h1>
           </div>
-        </div>
-      </section>
-      <section class="content__services">
-        <div class="container container__services">
-          <div class="content__services-cap content__cap-services">
-            <nav class="breadcrumbs">
-              <ul class="breadcrumbs-list">
-                <li class="breadcrumbs-item">
-                  <a href="./index.html" class="breadcrumbs-link">Главная</a>
+          <div class="breadcrumbs breadcrumbs__content">
+            <nav class="breadcrumbs__nav breadcrumbs__nav-indent">
+              <ul class="breadcrumbs__list breadcrumbs__list-content">
+                <li class="breadcrumbs__item breadcrumbs__item-slash">
+                  <a href="./index.html" class="breadcrumbs__link breadcrumbs__link-name">Главная</a>
                 </li>
-                <li class="breadcrumbs-item">
-                  <a href="./reviews.html" class="breadcrumbs-link breadcrumbs-link--unactive">Отзывы</a>
+                <li class="breadcrumbs__item breadcrumbs__item-slash">
+                  <a href="./reviews.html" class="breadcrumbs__link breadcrumbs__link-name--unactive">Отзывы</a>
                 </li>
               </ul>
             </nav>
@@ -86,32 +82,32 @@
       <!-- Отзывы -->
       <main class="maincontent maincontent__services">
         <!-- Отзывы пользователей -->
-        <section class="reviews__list">
+        <section class="reviews reviews__list">
           <div class="container container__reviews__list">
             <!-- Блок Отзыва -->
-            <div class="reviews__block">
-              <div class="reviews__window">
+            <div class="reviews__block reviews__block-form">
+              <div class="reviews__window reviews__window-content">
                 <!-- Информация о Туристе с фото -->
-                <div class="reviews__tourist">
-                  <div class="reviews__tourist-logo">
-                    <img class="reviews__tourist-img" src="./Air-asia/reviews/ivan.jpg" alt="">
+                <div class="reviews__tourist reviews__tourist-data">
+                  <div class="reviews__tourist__logo reviews__tourist__logo-size">
+                    <img class="reviews__tourist__img reviews__tourist__img-circle" src="./Air-asia/reviews/ivan.jpg" alt="">
                   </div>
                   <!-- ФИО Туриста -->
-                  <div class="reviews__tourist-info">
-                    <div class="reviews__tourist-name">
-                      <div class="reviews__tourist-fio reviews__tourist-fio-active">Иван Петров</div>
+                  <div class="tourist">
+                    <div class="tourist__info tourist__info-heading">
+                      <div class="tourist__name tourist__name__info-active">Иван Петров</div>
                       <!-- Ссылка на страницу ВК -->
-                      <div class="reviews__tourist__social">
-                        <a href="#" class="reviews__tourist__social__page">
-                          <img src="./Air-asia/reviews/vk-blue.png" class="reviews__tourist__social__link" alt="">
+                      <div class="tourist__social">
+                        <a href="#" class="tourist__social__page">
+                          <img src="./Air-asia/reviews/vk-blue.png" class="tourist__social__link" alt="">
                         </a>
                       </div>
                     </div>
                     <!-- Выбранная услуга -->
-                    <div class="reviews__tourist-service">
-                      <div class="service__oval">
-                        <label for="oval__btn" class="oval">
-                          <div class="service__oval__text">Водопад Янг-бей
+                    <div class="tourist__service">
+                      <div class="tourist__service__oval tourist__service__oval-modifier">
+                        <label for="oval__btn" class="tourist__service__oval__info">
+                          <div class="tourist__service__oval__text">Водопад Янг-бей
                           </div>
                         </label>
                       </div>
@@ -119,11 +115,11 @@
                   </div>
                 </div>
                 <!-- Отзыв Туриста -->
-                <div class="reviews__desc">
-                  <div class="desc">
-                    <h2 class="name__desc name__desc-reviews">Крутой поход на водопады.
+                <div class="desc">
+                  <div class="desc__reviews">
+                    <h2 class="desc__name desc__name-reviews">Крутой поход на водопады.
                     </h2>
-                    <article class="text__desc text__desc-reviews">
+                    <article class="desc__text desc__text-reviews">
                       <p>
                         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                         менее осмысленного текста рыбы на русском языке,
@@ -131,35 +127,35 @@
                         При создании генератора мы использовали небезизвестный универсальный код речей.
                       </p>
                     </article>
-                    <div class="data__desc">Ноябрь 2019
+                    <div class="desc__data desc__data-size">Ноябрь 2019
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="reviews__block">
-              <div class="reviews__window">
+            <div class="reviews__block reviews__block-form">
+              <div class="reviews__window reviews__window-content">
                 <!-- Информация о Туристе с фото -->
-                <div class="reviews__tourist">
-                  <div class="reviews__tourist-logo">
-                    <img class="reviews__tourist-img" src="./Air-asia/reviews/ekaterina.jpg" alt="">
+                <div class="reviews__tourist reviews__tourist-data">
+                  <div class="reviews__tourist__logo reviews__tourist__logo-size">
+                    <img class="reviews__tourist__img reviews__tourist__img-circle" src="./Air-asia/reviews/ekaterina.jpg" alt="">
                   </div>
                   <!-- ФИО Туриста -->
-                  <div class="reviews__tourist-info">
-                    <div class="reviews__tourist-name">
-                      <div class="reviews__tourist-fio reviews__tourist-fio">Екатерина Жмых</div>
+                  <div class="tourist">
+                    <div class="tourist__info tourist__info-heading">
+                      <div class="tourist__name tourist__name__info">Екатерина Жмых</div>
                       <!-- Ссылка на страницу ВК -->
-                      <div class="reviews__tourist__social">
-                        <a href="#" class="reviews__tourist__social__page">
-                          <img src="./Air-asia/reviews/vk-blue.png" class="reviews__tourist__social__link" alt="">
+                      <div class="tourist__social">
+                        <a href="#" class="tourist__social__page">
+                          <img src="./Air-asia/reviews/vk-blue.png" class="tourist__social__link" alt="">
                         </a>
                       </div>
                     </div>
                     <!-- Выбранная услуга -->
-                    <div class="reviews__tourist-service">
-                      <div class="service__oval">
-                        <label for="oval__btn" class="oval">
-                          <div class="service__oval__text">Остров обезьян
+                    <div class="tourist__service">
+                      <div class="tourist__service__oval tourist__service__oval-modifier">
+                        <label for="oval__btn" class="tourist__service__oval__info">
+                          <div class="tourist__service__oval__text">Остров обезьян
                           </div>
                         </label>
                       </div>
@@ -167,11 +163,11 @@
                   </div>
                 </div>
                 <!-- Отзыв Туриста -->
-                <div class="reviews__desc">
-                  <div class="desc desc-reviews">
-                    <h2 class="name__desc name__desc-reviews">Очень понравился тур на остров обезьян.
+                <div class="desc">
+                  <div class="desc__reviews">
+                    <h2 class="desc__name desc__name-reviews">Очень понравился тур на остров обезьян.
                     </h2>
-                    <article class="text__desc text__desc-reviews">
+                    <article class="desc__text desc__text-reviews">
                       <p>
                         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                         менее осмысленного текста рыбы на русском языке,
@@ -181,35 +177,35 @@
                         что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
                       </p>
                     </article>
-                    <div class="data__desc">Ноябрь 2019
+                    <div class="desc__data desc__data-size">Ноябрь 2019
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="reviews__block">
-              <div class="reviews__window">
+            <div class="reviews__block reviews__block-form">
+              <div class="reviews__window reviews__window-content">
                 <!-- Информация о Туристе с фото -->
-                <div class="reviews__tourist">
-                  <div class="reviews__tourist-logo">
-                    <img class="reviews__tourist-img" src="./Air-asia/reviews/lisa.jpg" alt="">
+                <div class="reviews__tourist reviews__tourist-data">
+                  <div class="reviews__tourist__logo reviews__tourist__logo-size">
+                    <img class="reviews__tourist__img reviews__tourist__img-circle" src="./Air-asia/reviews/lisa.jpg" alt="">
                   </div>
                   <!-- ФИО Туриста -->
-                  <div class="reviews__tourist-info">
-                    <div class="reviews__tourist-name">
-                      <div class="reviews__tourist-fio reviews__tourist-fio">Лиза Сидорова</div>
+                  <div class="tourist">
+                    <div class="tourist__info tourist__info-heading">
+                      <div class="tourist__name tourist__name__info">Лиза Сидорова</div>
                       <!-- Ссылка на страницу ВК -->
-                      <div class="reviews__tourist__social">
-                        <a href="#" class="reviews__tourist__social__page">
-                          <img src="./Air-asia/reviews/vk-blue.png" class="reviews__tourist__social__link" alt="">
+                      <div class="tourist__social">
+                        <a href="#" class="tourist__social__page">
+                          <img src="./Air-asia/reviews/vk-blue.png" class="tourist__social__link" alt="">
                         </a>
                       </div>
                     </div>
                     <!-- Выбранная услуга -->
-                    <div class="reviews__tourist-service">
-                      <div class="service__oval">
-                        <label for="oval__btn" class="oval">
-                          <div class="service__oval__text">Тур по Тайланду
+                    <div class="tourist__service">
+                      <div class="tourist__service__oval tourist__service__oval-modifier">
+                        <label for="oval__btn" class="tourist__service__oval__info">
+                          <div class="tourist__service__oval__text">Тур по Тайланду
                           </div>
                         </label>
                       </div>
@@ -217,11 +213,11 @@
                   </div>
                 </div>
                 <!-- Отзыв Туриста -->
-                <div class="reviews__desc">
-                  <div class="desc desc-reviews">
-                    <h2 class="name__desc name__desc-reviews">Интерестный тур по Таю.
+                <div class="desc">
+                  <div class="desc__reviews">
+                    <h2 class="desc__name desc__name-reviews">Интерестный тур по Таю.
                     </h2>
-                    <article class="text__desc text__desc-reviews">
+                    <article class="desc__text desc__text-reviews">
                       <p>
                         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                         менее осмысленного текста рыбы на русском языке,
@@ -229,35 +225,35 @@
                         При создании генератора мы использовали небезизвестный универсальный код речей.
                       </p>
                     </article>
-                    <div class="data__desc">Ноябрь 2019
+                    <div class="desc__data desc__data-size">Ноябрь 2019
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="reviews__block">
-              <div class="reviews__window">
+            <div class="reviews__block reviews__block-form">
+              <div class="reviews__window reviews__window-content">
                 <!-- Информация о Туристе с фото -->
-                <div class="reviews__tourist">
-                  <div class="reviews__tourist-logo">
-                    <img class="reviews__tourist-img" src="./Air-asia/reviews/anton.jpg" alt="">
+                <div class="reviews__tourist reviews__tourist-data">
+                  <div class="reviews__tourist__logo reviews__tourist__logo-size">
+                    <img class="reviews__tourist__img reviews__tourist__img-circle" src="./Air-asia/reviews/anton.jpg" alt="">
                   </div>
                   <!-- ФИО Туриста -->
-                  <div class="reviews__tourist-info">
-                    <div class="reviews__tourist-name">
-                      <div class="reviews__tourist-fio reviews__tourist-fio">Антон Игоревич</div>
+                  <div class="tourist">
+                    <div class="tourist__info tourist__info-heading">
+                      <div class="tourist__name tourist__name__info">Антон Игоревич</div>
                       <!-- Ссылка на страницу ВК -->
-                      <div class="reviews__tourist__social">
-                        <a href="#" class="reviews__tourist__social__page">
-                          <img src="./Air-asia/reviews/vk-blue.png" class="reviews__tourist__social__link" alt="">
+                      <div class="tourist__social">
+                        <a href="#" class="tourist__social__page">
+                          <img src="./Air-asia/reviews/vk-blue.png" class="tourist__social__link" alt="">
                         </a>
                       </div>
                     </div>
                     <!-- Выбранная услуга -->
-                    <div class="reviews__tourist-service">
-                      <div class="service__oval">
-                        <label for="oval__btn" class="oval">
-                          <div class="service__oval__text">Тур по Индонезии
+                    <div class="tourist__service">
+                      <div class="tourist__service__oval tourist__service__oval-modifier">
+                        <label for="oval__btn" class="tourist__service__oval__info">
+                          <div class="tourist__service__oval__text">Тур по Индонезии
                           </div>
                         </label>
                       </div>
@@ -265,11 +261,11 @@
                   </div>
                 </div>
                 <!-- Отзыв Туриста -->
-                <div class="reviews__desc">
-                  <div class="desc desc-reviews">
-                    <h2 class="name__desc name__desc-reviews">Для первого раза выбрал тур по Индонезии. И не пожалел!
+                <div class="desc">
+                  <div class="desc__reviews">
+                    <h2 class="desc__name desc__name-reviews">Для первого раза выбрал тур по Индонезии. И не пожалел!
                     </h2>
-                    <article class="text__desc text__desc-reviews">
+                    <article class="desc__text desc__text-reviews">
                       <p>
                         Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                         менее осмысленного текста рыбы на русском языке,
@@ -277,7 +273,7 @@
                         При создании генератора мы использовали небезизвестный универсальный код речей.
                       </p>
                     </article>
-                    <div class="data__desc">Ноябрь 2019
+                    <div class="desc__data desc__data-size">Ноябрь 2019
                     </div>
                   </div>
                 </div>
@@ -319,13 +315,11 @@
           </div>
         </section>
         <!-- Прямоугольник -->
-        <section class="rectangle">
+        <section class="rectangle rectangle__bkg">
           <div class="container container__rectangle">
-            <div class="rectangle__block">
-              <div class="rectangle__inner">
-                <div class="rectangle__text">
-                  Подберем тур по вашим пожеланиям
-                </div>
+            <div class="rectangle__block rectangle__block-position">
+              <div class="heading__page heading__page-rectangle">
+                <h2 class="heading__text heading__text-white">Подберем тур по вашим желаниям</h2>
               </div>
               <div class="rectangle__icon">
                 <img src="./Air-asia/rectangle/couple.png" alt="">
@@ -336,10 +330,8 @@
         <!-- Форма для заполнения отзывов -->
         <section class="reviews__form">
           <div class="container container__reviews__form-title">
-            <div class="inner__block">
-              <h2 class="inner__text">
-                Оставьте отзыв
-              </h2>
+            <div class="heading__page">
+              <h2 class="heading__text heading__text-inner">Оставьте отзыв</h2>
             </div>
             <!-- ОТЗЫВЫ -->
             <form class="form form__reviews__elem">
@@ -447,45 +439,46 @@
           </div>
           <!--Навигаторы по сайту (Главная, Услуги, Отзывы)-->
           <nav class="menu">
-            <ul class="menu-list">
-              <li class="menu-item">
-                <a href="./index.html" class="menu-link menu__link-main">Главная</a>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./index.html" class="menu__link menu__link-main">Главная</a>
               </li>
-              <li class="menu-item">
-                <a href="./services.html" class="menu-link menu__link-services">Услуги</a>
+              <li class="menu__item">
+                <a href="./services.html" class="menu__link menu__link-services">Услуги</a>
               </li>
-              <li class="menu-item">
-                <a href="./reviews.html" class="menu-link menu__link-reviews-active">Отзывы</a>
+              <li class="menu__item">
+                <a href="./reviews.html" class="menu__link menu__link-reviews-active">Отзывы</a>
               </li>
             </ul>
           </nav>
+          <!-- Социальные сети -->
           <nav class="social">
-            <ul class="social-list">
-              <li class="social-item">
-                <a href="#" class="social-link link-tg">
-                  <img src="./Air-asia/social/t.png" alt="tg" class="tg-link">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#" class="social__link social__link-tg">
+                  <img src="./Air-asia/social/t.png" alt="tg" class="tg__link">
                 </a>
               </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-vk">
-                  <img src="./Air-asia/social/vk.png" alt="vk" class="vk-link">
+              <li class="social__item">
+                <a href="#" class="social__link social__link-vk">
+                  <img src="./Air-asia/social/vk.png" alt="vk" class="vk__link">
                 </a>
               </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-fb">
-                  <img src="./Air-asia/social/fb.png" alt="fb" class="fb-link">
+              <li class="social__item">
+                <a href="#" class="social__link social__link-fb">
+                  <img src="./Air-asia/social/fb.png" alt="fb" class="fb__link">
                 </a>
               </li>
-              <li class="social-item">
-                <a href="#" class="social-link link-inst">
-                  <img src="./Air-asia/social/in.png" alt="inst" class="inst-link">
+              <li class="social__item">
+                <a href="#" class="social__link social__link-inst">
+                  <img src="./Air-asia/social/in.png" alt="inst" class="inst__link">
                 </a>
               </li>
             </ul>
           </nav>
-          <address class="link-contacts">
+          <address class="link__contacts">
             <!--Контактные данные и график работы-->
-            <div class="contacts-chart">
+            <div class="contacts__chart">
               Бесплатный звонок по России
             </div>
             <div class="contacts__number">

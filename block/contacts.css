@@ -1,5 +1,5 @@
 /*Контакты*/
-.link-contacts {
+.link__contacts {
   flex-wrap: wrap;
   flex: 2;
   align-items: flex-end;

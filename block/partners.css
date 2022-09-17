@@ -1,36 +1,33 @@
-.partners {
+.partners__block {
   margin-top: 80px;
   background-color: #F4F5F5;
-  text-align: left;
 }
 
-.partners__page {
-  padding: 0;
+.partners__page-block {
   margin: 0 0 117px 0;
   text-align: justify;
-  align-items: baseline;
 }
 
-.partners__avatar {
-  min-width: 230px;
-  min-height: 100px;
-}
-
-.partners__item {
+.partners__item-modifier {
   margin-right: 28px;
   margin-top: 79px;
   display: inline-block;
 }
 
-.partners__item:last-child {
+.partners__item-modifier:last-child {
   margin-right: 0;
 }
 
-.partners__img {
+.partners__avatar-logo {
+  min-width: 230px;
+  min-height: 100px;
+}
+
+.partners__img-blackout {
   filter: grayscale(100%);
 }
 
-.partners__img:hover {
+.partners__img-blackout:hover {
   filter: grayscale(0%);
-  transition: .3s;
+  transition: .2s;
 }
